@@ -8,6 +8,7 @@
 
     .link {
         color: $textColor;
+        word-break: break-all;
     }
 
     .filter {
@@ -48,6 +49,7 @@
                 width: 100%;
                 border-collapse: collapse;
                 padding: 1em 3em;
+                word-break: break-all;
 
                 .linkIcon {
                     width: 15px;
