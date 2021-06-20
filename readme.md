@@ -1,17 +1,34 @@
-# Stencil App Starter
+# BookMark
 
-Stencil is a compiler for building fast web apps using Web Components.
+This project was created using Stencil.js with Redux Thunk, can be used to manage bookmarks.
 
-Stencil combines the best concepts of the most popular frontend frameworks into a compile-time rather than run-time tool.  Stencil takes TypeScript, JSX, a tiny virtual DOM layer, efficient one-way data binding, an asynchronous rendering pipeline (similar to React Fiber), and lazy-loading out of the box, and generates 100% standards-based Web Components that run in any browser supporting the Custom Elements v1 spec.
+## Available Scripts
 
-Stencil components are just Web Components, so they work in any major framework or with no framework at all. In many cases, Stencil can be used as a drop in replacement for traditional frontend frameworks given the capabilities now available in the browser, though using it as such is certainly not required.
+In the project directory, you can run:
 
-Stencil also enables a number of key capabilities on top of Web Components, in particular Server Side Rendering (SSR) without the need to run a headless browser, pre-rendering, and objects-as-properties (instead of just strings).
+### `npm run dev`
 
-## Getting Started
+Runs the app in the development mode.<br />
+Open [http://localhost:3334](http://localhost:3334) to view the FrontEnd on the browser. <br />
 
-To start a new project using Stencil, clone this repo to a new directory:
+This simultaneously runs the json server.<br />
+Open [http://localhost:8080/bookmarks](http://localhost:8080/bookmarks) to view the JSON on the browser. <br />
 
-```bash
-npm i and npm run dev
-```
+For toast notification 'Sweetalert2' [https://sweetalert2.github.io/](https://sweetalert2.github.io/) is used.<br />
+
+
+![](./images/Desktopview.png)
+
+### `npm run test.watch`
+
+Launches the test runner in the interactive watch mode.<br />
+
+
+## Application functionality.
+
+* Allows the user to enter name, link(valid url) and tags. On click of Add button, bookmark is added to the table with a nice confirmation popup.
+* The table shows the latest entry on the top.
+* The filter field allows the user to filter bookmarks by tags.
+* On click of delete button, a popup is displayed to get the confirmation to delete the bookmark.
+* On confirming, bookmark gets deleted from the table.
+
