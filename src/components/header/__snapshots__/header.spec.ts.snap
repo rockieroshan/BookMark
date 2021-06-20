@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render Header 1`] = `
+<app-header>
+  <mock:shadow-root>
+    <header>
+      <h1>
+        Bookmarks
+      </h1>
+    </header>
+  </mock:shadow-root>
+</app-header>
+`;
+
+exports[`should render Header 1`] = `
+<app-header>
+  <mock:shadow-root>
+    <header>
+      <h1>
+        Bookmarks
+      </h1>
+    </header>
+  </mock:shadow-root>
+</app-header>
+`;

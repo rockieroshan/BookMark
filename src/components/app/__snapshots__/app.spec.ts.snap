@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppRoot should render AppRoot component 1`] = `<approot></approot>`;
+
+exports[`should render AppRoot component 1`] = `<approot></approot>`;

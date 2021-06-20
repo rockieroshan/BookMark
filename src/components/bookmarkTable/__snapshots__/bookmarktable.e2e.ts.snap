@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app-bookmarktable should MatchSnapshot 1`] = `null`;
+
+exports[`app-bookmarktable when clicking should be able to set day class 1`] = `null`;

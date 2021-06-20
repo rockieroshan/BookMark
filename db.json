@@ -1,0 +1,22 @@
+{
+  "bookmarks": [
+    {
+      "name": "FaceBook",
+      "link": "https://www.facebook.com/",
+      "tag": "Mail",
+      "id": 3
+    },
+    {
+      "name": "Google",
+      "link": "https://www.google.com/",
+      "tag": "Munich",
+      "id": 6
+    },
+    {
+      "name": "Twitter",
+      "link": "https://twitter.com/",
+      "tag": "Munich, germany",
+      "id": 7
+    }
+  ]
+}
