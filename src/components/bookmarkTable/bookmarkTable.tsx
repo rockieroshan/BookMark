@@ -1,4 +1,4 @@
-import { Component, getAssetPath, h, Prop, State } from '@stencil/core';
+import { Component, getAssetPath, h, State } from '@stencil/core';
 import { store } from '@stencil/redux';
 import { deleteBookmarkAction } from '../../store/actions/bookmarks-action';
 import { IBookMark, IBookMarkState } from '../../store/state-types';
@@ -14,8 +14,8 @@ import { displayPopup } from '../view/notification/notification';
 
 
 export class BookmarkTable {
-    @Prop() linkIcon: string = 'link.png';
-    @Prop() searchIcon: string = 'search.png';
+    linkIcon: string = 'link.png';
+    searchIcon: string = 'search.png';
     @State() bookmarks: IBookMark[];
     @State() filteredList: IBookMark[];
     @State() currentBookmark: IBookMark;
